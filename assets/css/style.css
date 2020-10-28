@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #21272a;
+}
+
+.clock-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#clock {
+  margin-bottom: 20px;
+}
+
+.colors {
+  width: 200px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
