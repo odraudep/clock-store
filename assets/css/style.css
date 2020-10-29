@@ -19,6 +19,7 @@ body {
 
 #clock {
   margin-bottom: 20px;
+  transition: .4s;
 }
 
 .colors {
@@ -33,4 +34,5 @@ body {
   width: 25px;
   height: 25px;
   border-radius: 50%;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .6);
 }
